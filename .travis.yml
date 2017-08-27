@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: A0mjJo+wpr7sAYpt7XbucP8iKLmV1kbBvRFUZTAZFDheFev9tEdv7kaoYKnTnaWPJreBiZz4acLj03fiJLrmXrHX2S0GT+RwLGAK9SOSOe0IJpRktjMdy2JANzb8ZFYpj/Qi7L+x+BrcGIKcQH23eaFqCYO5qshh1+6JKuM+SVWgmhoZocStRUtQs8jtmtECouSLQq2pjKarMQvThuq3Ly1KP33/icpBNXphgfZ9nM8qIwSiPQE/ambbwJMOEubpEzn4k98IhU4IUVm7TIf/AkPyTgQooAgvHtcMlSCLOt1peD4vRiRO2GTpA7t7YLktYsNYm2CjqsPe5Mp4+nOcQ2tF8bk6ztLeRmybO/cEGZZGuAUTXC7aSy7StvKwceNLido8WlVchkIVkU+pgKWdUiOZFvNFSA5AqcvhEJZKpH1pMJD1GvSMjPwRUtV88EyyLosKB9UzAinGLq4f0iodgI+4YS6F+rMdStqCUxwCIypfOA/d0q1uIQHcR8tsZiAYy4YX52LljmY9Wy7elBSu3tAh0dsLGzaOnE7bD++fJm5v1j1tDC4poeX3uPkFWEovzRoLzZi7+vQJcs4NFrsLn181zzKRAxvkDNx5KP/9iA5yh+DgFQccQovBS2jgOHeE68gho+dPmFpIwKmXlAcqUXRB+9C4fDfW65oaeg01/4E=
+  app: shielded-tor-91363
+  on:
+    repo: cjhensen/blog-app-mongoose-challenge-solution
